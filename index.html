@@ -11,10 +11,10 @@
       padding: 40px 20px;
       background: #f7f7fb;
       color: #222;
-      line-height: 1.7;
+      line-height: 1.8;
     }
     main {
-      max-width: 720px;
+      max-width: 820px;
       margin: 0 auto;
       background: #fff;
       padding: 32px;
@@ -25,52 +25,155 @@
       margin-top: 0;
       font-size: 2rem;
     }
+    h2 {
+      margin-top: 32px;
+      font-size: 1.35rem;
+      border-top: 1px solid #e5e7eb;
+      padding-top: 20px;
+    }
+    h3 {
+      margin-top: 20px;
+      font-size: 1.1rem;
+    }
     a {
       color: #4f46e5;
+      word-break: break-all;
+    }
+    .lead {
+      font-size: 1.05rem;
+    }
+    .language-nav {
+      background: #f3f4f6;
+      padding: 16px;
+      border-radius: 12px;
+      margin: 24px 0;
     }
     .app {
       margin-top: 24px;
-      padding-top: 16px;
-      border-top: 1px solid #e5e7eb;
+      padding: 20px;
+      border: 1px solid #e5e7eb;
+      border-radius: 16px;
+      background: #fafafa;
+    }
+    .meta {
+      color: #666;
+      font-size: 0.95rem;
+    }
+    .english-section {
+      margin-top: 56px;
+      border-top: 3px solid #e5e7eb;
+      padding-top: 32px;
     }
     footer {
-      margin-top: 32px;
+      margin-top: 40px;
       font-size: 0.9rem;
       color: #666;
+      border-top: 1px solid #e5e7eb;
+      padding-top: 20px;
     }
   </style>
 </head>
 <body>
   <main>
     <h1>Gorufost Studio</h1>
-    <p>
-      Gorufost Studio is an independent app development studio creating simple, useful, and gentle apps.
+
+    <p class="lead">
+      Gorufost Studio（ゴルフォスト・スタジオ）は、日常を少し便利に、少し心地よくするアプリを開発する個人開発スタジオです。
     </p>
 
-    <section class="app">
-      <h2>LullBeat</h2>
+    <div class="language-nav">
       <p>
-        LullBeat is a relaxation support app that uses gentle heartbeat-like vibration rhythms.
+        日本語版はこのページ上部に掲載しています。<br>
+        English version is available below.
       </p>
       <p>
-        Privacy Policy: Coming soon<br>
-        Support: Coming soon
+        <a href="#english">Go to English Version</a>
+      </p>
+    </div>
+
+    <section>
+      <h2>アプリ</h2>
+
+      <div class="app">
+        <h3>LullBeat</h3>
+        <p>
+          LullBeatは、やさしい心拍のような振動リズムでリラックスをサポートするアプリです。
+        </p>
+        <p>
+          <a href="/lullbeat/privacy-policy.html">プライバシーポリシー</a><br>
+          サポート：gorufoststudio@gmail.com
+        </p>
+      </div>
+
+      <div class="app">
+        <h3>Uchimate</h3>
+        <p>
+          Uchimateは、家庭内の情報や日々の生活管理をサポートする、お家ERPアプリです。
+        </p>
+        <p>
+          プライバシーポリシー：準備中<br>
+          サポート：準備中
+        </p>
+      </div>
+    </section>
+
+    <section>
+      <h2>お問い合わせ</h2>
+      <p>
+        アプリに関するお問い合わせは、以下のメールアドレスまでお願いいたします。
+      </p>
+      <p>
+        Gorufost Studio<br>
+        gorufoststudio@gmail.com
       </p>
     </section>
 
-    <section class="app">
-      <h2>Uchimate</h2>
-      <p>
-        Uchimate is a home ERP app for managing household information and daily life.
+    <section id="english" class="english-section">
+      <h1>Gorufost Studio</h1>
+
+      <p class="lead">
+        Gorufost Studio is an independent app development studio creating simple, useful, and gentle apps for everyday life.
       </p>
-      <p>
-        Privacy Policy: Coming soon<br>
-        Support: Coming soon
-      </p>
+
+      <section>
+        <h2>Apps</h2>
+
+        <div class="app">
+          <h3>LullBeat</h3>
+          <p>
+            LullBeat is a relaxation support app that uses gentle heartbeat-like vibration rhythms.
+          </p>
+          <p>
+            <a href="/lullbeat/privacy-policy.html">Privacy Policy</a><br>
+            Support: gorufoststudio@gmail.com
+          </p>
+        </div>
+
+        <div class="app">
+          <h3>Uchimate</h3>
+          <p>
+            Uchimate is a home ERP app for managing household information and daily life.
+          </p>
+          <p>
+            Privacy Policy: Coming soon<br>
+            Support: Coming soon
+          </p>
+        </div>
+      </section>
+
+      <section>
+        <h2>Contact</h2>
+        <p>
+          For inquiries about our apps, please contact us at:
+        </p>
+        <p>
+          Gorufost Studio<br>
+          gorufoststudio@gmail.com
+        </p>
+      </section>
     </section>
 
     <footer>
-      <p>Contact: gorufoststudio@gmail.com</p>
       <p>&copy; 2026 Gorufost Studio</p>
     </footer>
   </main>
